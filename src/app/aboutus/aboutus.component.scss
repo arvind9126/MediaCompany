@@ -1,0 +1,32 @@
+.short-container > img{
+   width:100%;
+   height:500px;
+   -webkit-filter: blur(4px); /* Safari 6.0 - 9.0 */
+  filter: blur(4px);
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 50px;
+    color: rgb(226, 226, 226);
+  }
+
+.shortest-container{
+    width: 80%;
+    height:100%;
+    // text-align: center;
+    // background-color: yellow;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.member{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}

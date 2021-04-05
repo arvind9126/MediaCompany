@@ -1,0 +1,76 @@
+.short-container{
+    width: 95%;
+    height:100%;
+    text-align: center;
+    // background-color: yellow;
+    margin: 0 0 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.carousel-inner > .carousel-item > img {
+    // width:640px;
+    height:600px;
+  }
+
+.box1{
+    // background-color: green;
+    grid-area: box1;
+    text-align: start;
+    margin-top: 20px;
+
+}
+.box2{
+    // background-color: blue;
+    background-image: url('../../assets/book.jpg');
+    grid-area:box2;
+    height: 200%;
+    
+}
+.box3{
+    background-image: url('../../assets/book2.jpg');
+    grid-area: box3;
+}
+.box4{
+    // background-color: red;
+    grid-area: box4;
+    text-align: start;
+}
+.box5{
+    // background-color: red;
+    grid-area: box5;
+    background-image: url('../../assets/book1.jpg');
+}
+.box6{
+    // background-color: orange;
+    grid-area: box6;
+    text-align: start;
+}
+.box7{
+    // background-color: red;
+    grid-area: box7;
+    background-image: url('../../assets/conferences-01.jpg');
+    height:150%;
+}
+.box8{
+    // background-color: red;
+    grid-area: box8;
+    background-image: url('../../assets/conferences-02.jpg');
+    height:150%;
+}
+main{
+    display: grid;
+    height: 140vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "box1 box1 ."
+    "box2 box2 box2"
+    ". . ."
+    "box4 box3 box5"
+    "box6 box7 box8"
+    ". . .";
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+

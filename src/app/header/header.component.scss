@@ -1,0 +1,69 @@
+// header {
+//     position: relative;
+//     background-color: #666;
+//     height: 60px;  
+//   }
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container-fluid{
+  display: flex;
+    justify-content: space-around;
+    // padding: 1rem;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #666;
+}
+
+.logo{
+  color: rgb(226, 226, 226);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+
+/* Styling modal */
+.modal .modal-content {
+  padding: 20px 20px 20px 20px;
+  -webkit-animation-name: modal-animation;
+  -webkit-animation-duration: 0.5s;
+  animation-name: modal-animation;
+  animation-duration: 0.5s;
+}
+
+.modal .modal-dialog{
+  position: absolute;
+  float: left;
+  height: 25%;
+  width: 25%;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+@-webkit-keyframes modal-animation {
+  from {
+      top: -100px;
+      opacity: 0;
+  }
+  to {
+      top: 0px;
+      opacity: 1;
+  }
+}
+
+@keyframes modal-animation {
+  from {
+      top: -100px;
+      opacity: 0;
+  }
+  to {
+      top: 0px;
+      opacity: 1;
+  }
+}
+

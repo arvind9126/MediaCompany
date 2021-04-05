@@ -1,0 +1,18 @@
+footer {
+    background-color: #666;
+    color: #FFF;
+    // position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  }
+
+  .container-fluid div{
+      text-align: center;
+  }
+
+  .container-fluid ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
